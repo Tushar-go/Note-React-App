@@ -77,7 +77,7 @@ function App() {
 
   const paginatedTodos = filteredTodos.slice(indexOfFirstTodo, indexOfLastTodo);
 
-  // Calculate total pages
+  
   const totalPages = Math.ceil(filteredTodos.length / todosPerPage);
 
   return (
